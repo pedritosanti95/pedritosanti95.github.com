@@ -1,0 +1,15 @@
+body {
+    background-color: #334433;
+    color: #BBBBBB;
+}
+h1, h2{
+    color: #6666AA;
+    font-weight: bold;
+}
+.highlight{
+    color: #BBBB66;
+    font-weight: bold;
+}
+.italic{
+    font-style: italic;
+}
