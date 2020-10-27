@@ -1,6 +1,7 @@
 .container {
     background-color: #334433;
     color: #BBBBBB;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: auto;
     padding: 10px;
     width: 70%;
@@ -19,17 +20,23 @@ h1, h2{
 }
 
 /*pseudo-classes*/
-.links:link{   /*unvisited link*/
+.links{
     color: #CC3333;
+}
+.links.link{   /*unvisited link*/
+    text-decoration: none;
 }
 .links:visited{   /*visited link*/
     color: #ce6f6f;
+    text-decoration: line-through;
 }
-.links:hover{   /*mouse over link*/
+.links:hover{   /*mouse over link, hover MUST after link, visited*/
     color: #FF0000;
+    text-decoration: underline;
 }
-.links:active{   /*selected link*/
+.links:active{   /*selected link, active MUST after hover*/
     color: #FFFFFF;
+    text-decoration: underline overline;
 }
 
 /*pseudo-elements*/
