@@ -34,8 +34,9 @@ h1, h2{
 
 /*pseudo-elements*/
 p::first-letter {
-    background-color: #ff00ff;
-    font-size: 40px;
+    background-color: #9b009b;
+    font-family: monospace;
+    font-size: 25px;
 }
 
 #mood{
