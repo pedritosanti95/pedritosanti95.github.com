@@ -67,6 +67,7 @@ dd{
 }
 #mood img{
     height: 240px;
+    transition: all 2s;
 }
 #mood li{
     float: left;
