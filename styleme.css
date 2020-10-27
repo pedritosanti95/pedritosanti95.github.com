@@ -17,19 +17,26 @@ h1, h2{
 .italic{
     font-style: italic;
 }
-.links{
+
+/*pseudo-classes*/
+.links:link{   /*unvisited link*/
     color: #CC3333;
 }
-.links:visited{
+.links:visited{   /*visited link*/
     color: #ce6f6f;
 }
-.links:hover{
+.links:hover{   /*mouse over link*/
     color: #FF0000;
 }
-.links:active{
+.links:active{   /*selected link*/
     color: #FFFFFF;
 }
 
+/*pseudo-elements*/
+p::first-letter {
+    background-color: #ff00ff;
+    font-size: 40px;
+}
 
 #mood{
     list-style: none;
