@@ -19,6 +19,13 @@ h1, h2{
     font-style: italic;
 }
 
+/*pseudo-elements*/
+p::first-letter {
+    background-color: #9b009b;
+    font-family: monospace;
+    font-size: 25px;
+}
+
 /*pseudo-classes*/
 .links{
     color: #CC3333;
@@ -38,12 +45,17 @@ h1, h2{
     color: #FFFFFF;
     text-decoration: underline;
 }
-
-/*pseudo-elements*/
-p::first-letter {
-    background-color: #9b009b;
-    font-family: monospace;
-    font-size: 25px;
+dl{
+    display:none;
+}
+li:hover dl{
+    display:block;
+}
+dt{
+    font-weight:bold;
+}
+dd{
+    font-style: italic;
 }
 
 #mood{
