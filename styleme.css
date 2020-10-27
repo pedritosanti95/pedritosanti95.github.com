@@ -1,6 +1,9 @@
-body {
+.container {
     background-color: #334433;
     color: #BBBBBB;
+    margin: auto;
+    padding: 10px;
+    width: 70%;
 }
 h1, h2{
     color: #6666AA;
@@ -14,18 +17,17 @@ h1, h2{
 .italic{
     font-style: italic;
 }
-
 .links{
     color: #CC3333;
 }
-#mood span{
-    display: block;
-    text-align: center;
-}
+
+
 #mood{
     list-style: none;
-    
-    
+}
+#mood span{
+    display:
+    text-align: center;
 }
 #mood img{
     height: 240px;
