@@ -29,7 +29,6 @@ h1, h2{
 }*/
 .links:visited{   /*visited link*/
     color: #ce6f6f;
-    text-decoration: line-through;
 }
 .links:hover{   /*mouse over link, hover MUST after link, visited*/
     color: #FF0000;
@@ -37,7 +36,7 @@ h1, h2{
 }
 .links:active{   /*selected link, active MUST after hover*/
     color: #FFFFFF;
-    text-decoration: underline overline;
+    text-decoration: underline;
 }
 
 /*pseudo-elements*/
