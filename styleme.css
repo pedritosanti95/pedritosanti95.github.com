@@ -22,10 +22,11 @@ h1, h2{
 /*pseudo-classes*/
 .links{
     color: #CC3333;
-}
-.links.link{   /*unvisited link*/
     text-decoration: none;
 }
+/*.links.link{   /*unvisited link
+    
+}*/
 .links:visited{   /*visited link*/
     color: #ce6f6f;
     text-decoration: line-through;
