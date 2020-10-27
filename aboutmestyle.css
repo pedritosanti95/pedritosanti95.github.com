@@ -13,3 +13,7 @@ h1, h2{
 .italic{
     font-style: italic;
 }
+
+.links{
+    color: #CC3333;
+}
