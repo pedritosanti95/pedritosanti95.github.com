@@ -50,6 +50,7 @@ dl{
 }
 li:hover dl{
     display:block;
+    cursor: pointer;
 }
 dt{
     font-weight:bold;
