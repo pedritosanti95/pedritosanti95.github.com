@@ -20,6 +20,15 @@ h1, h2{
 .links{
     color: #CC3333;
 }
+.links:visited{
+    color: #ce6f6f;
+}
+.links:hover{
+    color: #FF0000;
+}
+.links:active{
+    color: #FFFFFF;
+}
 
 
 #mood{
