@@ -26,7 +26,7 @@ h1, h2{
     list-style: none;
 }
 #mood span{
-    display:
+    display: block;
     text-align: center;
 }
 #mood img{
