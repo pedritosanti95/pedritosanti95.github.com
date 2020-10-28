@@ -21,6 +21,16 @@
     text-decoration: none;
     color: #BBBBBB;
 }
-img {
+.menu img {
     border-radius: 50%;
-  }
+    transition: 2s;
+}s
+.menu a:hover img{
+    border-radius: 0%;
+}
+.menu .hide{
+    display: none;
+}
+.menu a:hover .hide{
+    display: flex;
+}
