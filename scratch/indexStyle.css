@@ -22,11 +22,10 @@
     color: #BBBBBB;
 }
 .menu img {
-    border-radius: 50%;
     transition: 2s;
-}s
+}
 .menu a:hover img{
-    border-radius: 0%;
+    border-radius: 50%;
 }
 .menu .hide{
     display: none;
