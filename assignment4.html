@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="forFormA4.css">
+    <title>Assignment 4 - Form example</title>
+</head>
+<body>
+    <div class="nav">
+        <h1>Workshop Registration</h1>
+        <select>
+            <option>Change to red</option>
+            <option>Change to green</option>
+            <option>Change to blue</option>
+        </select>
+    </div>
+    <div class="container">
+        <form>
+            <div>
+                <p class="subtitle">Register now while seats are available!</p>
+                <p><label for="fn">First Name<span class="required">*</span></label><input type="text" id="fn" required/></p>
+                <p><label for="ln">Last Name<span class="required">*</span></label><input type="text" id="ln" required/></p>
+                <p><label for="coin">Company/Institution<span class="required">*</span></label><input type="text" id="coin" required/></p>
+                <p><label for="addr">Address<span class="required">*</span></label><textarea id="addr" required></textarea></p>
+                <p><label for="ci">City</label><input type="text" id="ci"/></p>
+                <p><label for="pr">State/Province/Region</label><select>
+                    <option value="" selected disabled hidden>Choose one</option>
+                    <option>Alabama</option>
+                    <option>Amazonas</option>
+                    <option>Arizona</option>
+                    <option>Carchi</option>
+                    <option>Guayas</option>
+                    <option>Iowa</option>
+                    <option>Pichincha</option>
+                    <option>Rio de Janeiro</option>
+                    <option>Rio Grande do Sul</option>
+                </select></p>
+                <p><label for="co">Country</label><select id="co">
+                    <option value="" selected disabled hidden>Choose one</option>
+                    <option>Brazil</option>
+                    <option>Ecuador</option>
+                    <option>United States</option>
+                </select></p>
+                <p><label for="em">Email<span class="required">*</span></label><input type="text" id="em" required/></p>
+                <p><label for="pn">Phone Number<span class="required">*</span></label><input type="text" id="pn" required/></p>
+                <p class="subtitle">Lunch</p>
+                <p><label for="mp">Meal Preference</label><select id="mp">
+                    <option value="" selected disabled hidden>Choose one</option>
+                    <option>Any Diet</option>
+                    <option>Vegetarian</option>
+                    <option>Vegan</option>
+                </select></p>
+                <p class="subtitle">Payment Details</p>
+                <p><label class="pmode">Payment Mode</label><span class="cboxes">
+                        <span><input type="checkbox"/> Cash</span>
+                        <span><input type="checkbox"/> Cheque</span>
+                        <span><input type="checkbox"/> Demand Draft</span>
+                </span>
+                </p>
+                <p><label for="dc">DD/Cheque No.</label><input type="text" id="dc"/></p>
+                <p><label for="do">Drawn On (Bank Name)</label><input type="text" id="do"/></p>
+                <p><label for="pa">Payable at</label><input type="text" id="pa"/></p>
+            </div>
+            <div>
+                <input type="submit"/>
+                <input type="reset"/>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

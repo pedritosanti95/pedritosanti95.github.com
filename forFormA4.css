@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.subtitle{
+    text-decoration: underline;
+}
+.required{
+    color: red;
+    font-weight: bold;
+}
+.cboxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+}
+label{
+    font-weight: bold;
+}
+.pmode{
+    float: left;
+}
