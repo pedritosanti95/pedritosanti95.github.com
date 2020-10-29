@@ -9,7 +9,10 @@
     flex-wrap: wrap;
     justify-content: center; /*main axis - horizontal*/
     align-items: baseline; /*cross axis - vertical*/
-    /*align-content: center; both axes*/
+    /*align-content: center; /*both axes*/
+}
+.menu select{
+    text-align: right;
 }
 .menu li{
     background-color: #000066;
