@@ -76,8 +76,8 @@ dd{
 }
 #mood img:hover{
     transform: rotate(180deg);
-    width:150px;
-    height:150px;
+    width:250px;
+    height:250px;
     cursor: pointer;
     border-radius: 70%;
 }
