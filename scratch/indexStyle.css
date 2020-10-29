@@ -1,7 +1,10 @@
 .container{
     background-color: rgb(184, 105, 187);
 }
-.menu{
+.nav{
+    background-color: #AAAAFF;
+}
+.langs{
     list-style-type: none;
     color: #BBBBBB;
     /*for flexbox:*/
@@ -11,28 +14,25 @@
     align-items: baseline; /*cross axis - vertical*/
     /*align-content: center; /*both axes*/
 }
-.menu select{
-    text-align: right;
-}
-.menu li{
+.langs li{
     background-color: #000066;
     border: solid #FFFFFF;
     border-radius: 1px;
     float: left;
 }
-.menu a{
+.langs a{
     text-decoration: none;
     color: #BBBBBB;
 }
-.menu img {
+.langs img {
     transition: 2s;
 }
-.menu a:hover img{
+.langs a:hover img{
     border-radius: 50%;
 }
-.menu .hide{
+.langs .hide{
     display: none;
 }
-.menu a:hover .hide{
+.langs a:hover .hide{
     display: flex;
 }
