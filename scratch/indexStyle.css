@@ -10,7 +10,7 @@
     /*for flexbox:*/
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; /*main axis - horizontal*/
+    justify-content: right; /*main axis - horizontal*/
     align-items: baseline; /*cross axis - vertical*/
     /*align-content: center; /*both axes*/
 }
