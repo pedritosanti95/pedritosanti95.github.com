@@ -57,6 +57,7 @@ input[type="submit"], input[type="reset"]{
     align-content: space-between;
     flex-grow: 1;
 }
+.maindiv
 .left_part, .right_part{
     flex: 1;
 }
