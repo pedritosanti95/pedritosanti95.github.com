@@ -15,12 +15,16 @@
     <!-- Your UI controls go here -->
     <fieldset>
         <legend>Text: </legend>
-        <textarea id="ta" rows="4" columns="30"></textarea>
+        <textarea id="ta" rows="4" columns="30">
+        Sample Item 1
+        Sample Item 2
+        .</textarea>
     </fieldset>
     <fieldset>
         <legend>Decoration: </legend>
-        <input type="button" value="Bigger Decorations!"/>
-        <span><input type="checkbox" id="cb" onclick="myFunction()"/>"<label>Bling</label></span>
+        <p><input type="button" onclick="bigger()" value="Bigger Decorations!"/></p>
+        <p><span><input type="checkbox" id="cb" onchange="bling()"/><label>Bling</label></span></p>
+        <p><input type="button" onclick="malkovich()" value="Malkovich"/></p>
     </fieldset>
     <script src="decoratemytext.js" type="text/javascript"></script>
 </body>
