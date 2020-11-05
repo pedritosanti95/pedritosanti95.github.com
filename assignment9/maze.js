@@ -3,7 +3,7 @@ $(function(){
     $("#start").click(function(){
         if(!gameon){ gameon = true; }
         $("#status").text("Playing maze...");
-        $(".boundary").css("background-color","#eeeeee");
+        $(".boundary").removeClass("youlose");
         console.log("Is game on? "+gameon);
     });
     $(".boundary").mouseover(function(){
@@ -20,7 +20,7 @@ $(function(){
     });
     //
     function lostGame(){
-        $(".boundary").css("background-color","red");
+        $(".boundary").addClass("youlose");
         $("#status").text("You lose! Hundred of mice did it, why not you? Try again...");
         gameOver();
     }
