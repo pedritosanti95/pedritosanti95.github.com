@@ -2,6 +2,7 @@
 console.log("EXERCISE 1");
 String.prototype.filter = function(str){
     return this.split(" ").filter(w => w!=str).join(" ");
+	//return this.replaceAll(str, "");
 }
 console.log("This house is not nice".filter("not"));
 
@@ -31,16 +32,17 @@ console.log("\nEXERCISE 3");
     function Person1(inputName){
         this.name = inputName;
     }
-    const Teacher1 = function(inputName){
+	function Teacher1(inputNname, subject){	// const Teacher1 = function(inputName){
         Person1.call(this, inputName);
+		this.subject = subject;
     }
     Teacher1.prototype = Object.create(Person1.prototype);
     //
-    Teacher1.prototype.teach1 = function(subject){
-        console.log("Teacher "+this.name+" is now teaching "+subject);
+    Teacher1.prototype.teach1 = function(){
+        console.log("Teacher "+this.name+" is now teaching "+ this.subject);
     }
-    const teacher = new Teacher1('Hua Wang');
-    teacher.teach1("Math");
+    const teacher = new Teacher1('Hua Wang','Math');
+    teacher.teach1();
 
 //3.2//
     console.log("  --With Object.create():");
@@ -59,7 +61,7 @@ console.log("\nEXERCISE 3");
 // Exercise 4 //
 console.log("\nEXERCISE 4");
 //4.1//
-console.log("  --With prototype approach:");
+	console.log("  --With prototype approach:");
     const Person3 = {
         name : "unknown",
         age : 0,
@@ -111,7 +113,7 @@ console.log("  --With prototype approach:");
         console.log("Good morning!, and in case I dont see you, good afternoon, good evening and good night!");
     };
 
-    const Student4 = function(name, age, major){
+    function Student4(name, age, major){
         Person4.call(this, name, age);
         this.major = major;
     }
@@ -120,7 +122,7 @@ console.log("  --With prototype approach:");
         console.log("Hey, my name is "+this.name+" and I am studying "+this.major+".");
     }
 
-    const Professor4 = function(name, age, department){
+    function Professor4(name, age, department){
         Person4.call(this, name, age);
         this.department = department;
     }
